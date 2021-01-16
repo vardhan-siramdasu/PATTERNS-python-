@@ -3,7 +3,7 @@ t.speed(0)
 t.color('black')
 for i in range(8):
     for j in range(8):
-        if((i+j)%2==0):
+        if((i+j)%2 == 0):
             t.begin_fill()
         for k in range(4):
             t.fd(40)
