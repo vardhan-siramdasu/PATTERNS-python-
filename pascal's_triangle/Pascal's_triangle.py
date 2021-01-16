@@ -8,7 +8,7 @@ else:
 for i in range(rows):
     arr.append([])
     for j in range(i + rows):
-        if ((i + j < rows - 1) or ((i + j)%2 == even_or_odd)):
+        if ((i + j < rows - 1) or ((i + j) % 2 == even_or_odd)):
             arr[i].append('  ')
         elif(i + j == rows - 1 or len(arr[i]) == rows - 1 + i):
             arr[i].append(1)
